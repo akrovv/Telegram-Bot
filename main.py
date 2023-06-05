@@ -6,7 +6,7 @@ import telebot
 from telebot import types
 import datetime
 
-bot = telebot.TeleBot('6269954378:AAGe9n4hI8Qeqa8ASSwmE6wx5lRPZv0H6IY')
+bot = telebot.TeleBot('SECRET_KEY')
 
 def get_image_from_bytes(b):
     stream = BytesIO(b)
